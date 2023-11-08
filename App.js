@@ -4,7 +4,7 @@ import Header from './src/components/HeaderPmdr';
 import Timer from './src/components/TimerPmdr';
 import {Audio} from "expo-av";
 
-const colors = ["#F7DC6F","#A2D9CE","#D7BDE2"]
+const colors = ["#3CB398","#F0794F","#F5A240"]
 
 export default function App() {
   const [isWorking, setIsWorking] = useState(false);
@@ -77,6 +77,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#333333",
     padding: 15,
     marginTop: 15,
-    borderRadius: 15
+    borderRadius: 20
   }
 });

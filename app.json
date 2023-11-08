@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AppAustral",
-    "slug": "AppAustral",
+    "name": "Pomodoro HF",
+    "slug": "PomodoroHF",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.maycolhf.PomodoroHF"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4fefda9a-aa9d-42f1-82ed-19599a12c333"
+      }
     }
   }
 }
